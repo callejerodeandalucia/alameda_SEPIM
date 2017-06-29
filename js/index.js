@@ -64,7 +64,7 @@ function errorExit(){
   navigator.app.exitApp();
 }
 
-ffunction geolocalizar(){
+function geolocalizar(){
 	//console.log("geolocalizar");
 	if (navigator.geolocation) {
 		  var successFunction = function(position){
